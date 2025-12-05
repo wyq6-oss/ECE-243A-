@@ -1,0 +1,51 @@
+Default model: 0.23482316041434526 (10000) ; 0.287400 (3000)
+1. Modify optimizer from Adam to AdamW 0.27514341133259046
+2. Diphones 0.24951508398332714
+3. Augmentation/time mask/ feature mask
+
+/home/jupyter/baseline_logs/speechBaseline4_base_wn0.8_tm0x0_fm0x0
+Best CER: 0.23490569931080021
+/home/jupyter/baseline_logs/speechBaseline4_base_wn1.0_tm0x0_fm0x0
+Best CER: 0.22623911518303
+/home/jupyter/baseline_logs/speechBaseline4_wn0.8_tm10x1_fm0x0
+Best CER: 0.23172795179728448
+/home/jupyter/baseline_logs/speechBaseline4_wn1.0_tm10x1_fm0x0
+Best CER: 0.22557880401139035
+/home/jupyter/baseline_logs/speechBaseline4_wn0.8_tm20x2_fm0x0
+Best CER: 0.22999463497173042
+/home/jupyter/baseline_logs/speechBaseline4_wn1.0_tm20x2_fm0x0
+Best CER: 0.22524864842557055
+/home/jupyter/baseline_logs/speechBaseline4_wn0.8_tm0x0_fm8x1
+Best CER: 0.23688663282571912
+/home/jupyter/baseline_logs/speechBaseline4_wn0.8_tm0x0_fm16x1
+Best CER: 0.26305146300193966
+/home/jupyter/baseline_logs/speechBaseline4_wn0.8_tm10x1_fm8x1
+Best CER: 0.2900829515909372
+/home/jupyter/baseline_logs/speechBaseline4_wn0.8_tm20x2_fm8x1
+Best CER: 0.28855598200652055
+/home/jupyter/baseline_logs/speechBaseline4_wn1.0_tm20x2_fm8x1
+Best CER: 0.2897527960051174
+/home/jupyter/baseline_logs/speechBaseline4_wn1.0_tm40x2_fm8x2
+Best CER: 0.29685114110024347
+
+4. Smooth label CTC
+/home/jupyter/baseline_logs/speechBaseline4_sm0.02
+Best CER: 0.243448475093888
+/home/jupyter/baseline_logs/speechBaseline4_sm0.04
+Best CER: 0.24662622260740374
+/home/jupyter/baseline_logs/speechBaseline4_sm0.06
+Best CER: 0.24588337253930914
+/home/jupyter/baseline_logs/speechBaseline4_sm0.08
+Best CER: 0.24547067805703437
+/home/jupyter/baseline_logs/speechBaseline4_sm0.1
+Best CER: 0.24637860591803887
+/home/jupyter/baseline_logs/speechBaseline4_sm0.12
+Best CER: 0.24774049770954562
+/home/jupyter/baseline_logs/speechBaseline4_sm0.14
+Best CER: 0.24980397012091948
+/home/jupyter/baseline_logs/speechBaseline4_sm0.16
+Best CER: 0.24150881102719657
+/home/jupyter/baseline_logs/speechBaseline4_sm0.18
+Best CER: 0.24221039164706368
+/home/jupyter/baseline_logs/speechBaseline4_sm0.2
+Best CER: 0.25562296232099374
