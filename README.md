@@ -79,7 +79,7 @@ python scripts/trainModel.py \
 
 To run your augmentation sweeps:
 
-python scripts/run_experiments.py
+python scripts/train_model.py
 
 
 This script loops over combinations of:
